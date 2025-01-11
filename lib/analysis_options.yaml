@@ -69,6 +69,5 @@ linter:
     avoid_returning_null_for_void: true
     avoid_catches_without_on_clauses: true
     avoid_as: true
-    always_specify_types: true
     always_declare_return_types: true
 
