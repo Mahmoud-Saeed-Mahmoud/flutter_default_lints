@@ -27,7 +27,6 @@ linter:
     unnecessary_await_in_return: true
     unawaited_futures: true
     throw_in_finally: true
-    sort_pub_dependencies: true
     sort_unnamed_constructors_first: true
     sort_child_properties_last: true
     require_trailing_commas: true
