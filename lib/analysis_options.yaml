@@ -60,7 +60,6 @@ linter:
     empty_statements: true
     empty_constructor_bodies: true
     empty_catches: true
-    discarded_futures: true
     directives_ordering: true
     deprecated_member_use_from_same_package: true
     avoid_unnecessary_containers: true
