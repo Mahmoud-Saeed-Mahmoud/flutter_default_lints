@@ -1,6 +1,24 @@
 analyzer:
+  language:
+    strict-casts: true
+    strict-inference: true
+    strict-raw-types: true
 linter:
   rules:
+    always_put_control_body_on_new_line: true
+    avoid_annotating_with_dynamic: true
+    avoid_empty_else: true
+    avoid_field_initializers_in_const_classes: true
+    avoid_function_literals_in_foreach_calls: true
+    avoid_futureor_void: true
+    avoid_returning_null_for_void: true
+    avoid_unnecessary_containers: true
+    avoid_void_async: true
+    avoid_returning_this: true
+    avoid_catches_without_on_clauses: true
+    always_declare_return_types: true
+    avoid_dynamic_calls: true
+    cancel_subscriptions: true
     use_super_parameters: true
     use_rethrow_when_possible: true
     use_late_for_private_fields_and_variables: true
@@ -20,7 +38,6 @@ linter:
     unnecessary_library_name: true
     unnecessary_late: true
     unnecessary_lambdas: true
-    unnecessary_final: true
     unnecessary_breaks: true
     unnecessary_const: true
     unnecessary_brace_in_string_interps: true
@@ -62,10 +79,32 @@ linter:
     empty_catches: true
     directives_ordering: true
     deprecated_member_use_from_same_package: true
-    avoid_unnecessary_containers: true
-    avoid_returning_this: true
-    avoid_returning_null_for_void: true
-    avoid_catches_without_on_clauses: true
-    avoid_as: true
-    always_declare_return_types: true
 
+dart_code_metrics:
+  formatter:
+    cascading-widget-extensions: true
+    indent: 0
+    line-length: 120
+
+  extends:
+    - recommended
+  rules:
+    always-remove-listener: true
+    avoid-dynamic: true
+    avoid-unassigned-late-fields: true
+    avoid-undisposed-instances: true
+    avoid-unnecessary-futures: true
+    avoid-unnecessary-constructor: true
+    avoid-unnecessary-return: true
+    prefer-trailing-comma: true
+    prefer-type-over-var: true
+    prefer-explicit-type-arguments: true
+    prefer-explicit-function-type: true
+    prefer-declaring-const-constructor: true
+    newline-before-case: true
+    newline-before-method: true
+    newline-before-return: true
+
+  pubspec-rules:
+    avoid-any-version: true
+    prefer-caret-version-syntax: true
