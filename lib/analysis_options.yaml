@@ -46,7 +46,6 @@ linter:
     throw_in_finally: true
     sort_unnamed_constructors_first: true
     sort_child_properties_last: true
-    require_trailing_commas: true
     provide_deprecation_message: true
     prefer_spread_collections: true
     prefer_single_quotes: true
